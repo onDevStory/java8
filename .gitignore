@@ -1,0 +1,15 @@
+/.project
+/.metadata
+.settings/*
+.settings/**
+build/**
+/.idea
+*.log
+.classpath
+.project
+*.iml
+.git
+*.bak
+/entity/src/main/querydsl
+**/querydsl
+bin/
