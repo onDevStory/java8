@@ -3,3 +3,10 @@ https://www.mkyong.com/java8/java-8-lambda-comparator-example/
 https://www.mkyong.com/java8/java-8-foreach-examples/
 	http://stackoverflow.com/questions/38948817/how-to-put-continue-in-side-foreach-loop-in-java8
 
+https://www.mkyong.com/java8/java-8-stringjoiner-example/
+
+
+Later ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+https://www.mkyong.com/java8/java-8-stream-read-a-file-line-by-line/
+
