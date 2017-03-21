@@ -21,7 +21,7 @@ public class Mock {
 		return result;
 	}
 
-	public static Map<String, Integer> getMap() {
+	public static Map<String, Integer> getMapStrInt() {
 		Map<String, Integer> items = new HashMap<>();
 		items.put("A", 10);
 		items.put("B", 20);
@@ -29,6 +29,18 @@ public class Mock {
 		items.put("D", 40);
 		items.put("E", 50);
 		items.put("F", 60);
+
+		return items;
+	}
+
+	public static Map<Integer, String> getMapIntStr() {
+		Map<Integer, String> items = new HashMap<>();
+		items.put(10, "A");
+		items.put(20, "B");
+		items.put(30, "C");
+		items.put(40, "D");
+		items.put(50, "E");
+		items.put(60, "C");
 
 		return items;
 	}

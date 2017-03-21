@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Map<String, Integer> map = Mock.getMap();
+		Map<String, Integer> map = Mock.getMapStrInt();
 
 		// Normal way to loop a Map.
 		PrintUtil.print("Normal way to loop a Map.");
