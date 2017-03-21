@@ -2,11 +2,13 @@ package example;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import example.vo.Developer;
+import example.vo.Item;
 
 public class Mock {
 
@@ -19,6 +21,19 @@ public class Mock {
 		result.add(new Developer("iris", new BigDecimal("170000"), 55));
 
 		return result;
+	}
+
+	public static List<Item> getItems() {
+		return Arrays.asList(
+			new Item("apple", 10, new BigDecimal("9.99")),
+			new Item("banana", 20, new BigDecimal("19.99")),
+			new Item("orang", 10, new BigDecimal("29.99")),
+			new Item("watermelon", 10, new BigDecimal("29.99")),
+			new Item("papaya", 20, new BigDecimal("9.99")),
+			new Item("apple", 10, new BigDecimal("9.99")),
+			new Item("banana", 10, new BigDecimal("19.99")),
+			new Item("apple", 20, new BigDecimal("9.99"))
+		);
 	}
 
 	public static Map<String, Integer> getMapStrInt() {
@@ -45,14 +60,12 @@ public class Mock {
 		return items;
 	}
 
-	public static List<String> getList() {
-		List<String> items = new ArrayList<>();
-		items.add("A");
-		items.add("B");
-		items.add("C");
-		items.add("D");
-		items.add("E");
-		return items;
+	public static List<String> getListIdentity() {
+		return Arrays.asList("A", "B", "C", "D", "E");
+	}
+
+	public static List<String> getListDupl() {
+		return Arrays.asList("C", "B", "A", "C", "A", "D");
 	}
 
 }

@@ -30,7 +30,7 @@ public class Main {
 			System.out.println(String.format("Items : %s Count : %d", k, v));
 		});
 
-		List<String> list = Mock.getList();
+		List<String> list = Mock.getListIdentity();
 
 		// lambda - Output : A,B,C,D,E
 		PrintUtil.print("");

@@ -36,10 +36,10 @@ public class Main {
 		PrintUtil.print("Join a List by a delimiter ㅡㅡㅡㅡㅡㅡ");
 		
 	 	// String.join(", ", Mock.getList())
-		PrintUtil.print("String.join(\", \", Mock.getList())", String.join(", ", Mock.getList()));
+		PrintUtil.print("String.join(\", \", Mock.getList())", String.join(", ", Mock.getListIdentity()));
 	
 		// Join List<String> by using stream, map, collect(Collector c).
-		result = Mock.getList().stream()
+		result = Mock.getListIdentity().stream()
 							.map(item -> item)
 							.collect(Collectors.joining(" | "));
 		PrintUtil.print("Join List<String> by using stream, map, collect(Collector c)", result);

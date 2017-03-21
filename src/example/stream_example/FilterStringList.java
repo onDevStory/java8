@@ -16,7 +16,7 @@ public class FilterStringList {
 
 	private static void normalExample() {
 		List<String> result = new ArrayList<>();
-		for (String item : Mock.getList()) {
+		for (String item : Mock.getListIdentity()) {
 			if (!item.equals("E")) {
 				result.add(item);
 			}
@@ -26,7 +26,7 @@ public class FilterStringList {
 
 	private static void evolvedExample() {
 		List<String> result =
-				Mock.getList().stream() 						// convert list to stream
+				Mock.getListIdentity().stream() 						// convert list to stream
 							.filter(item -> !item.equals("E"))  // filters the line, equals to "mkyong"
 							.collect(Collectors.toList());      // collect the output and convert streams to a List
 		PrintUtil.printList("evolvedExample", result);
