@@ -12,6 +12,15 @@ import example.vo.Item;
 
 public class Mock {
 
+	public static int[] getArrayInt() {
+		int[] intArray = {1, 2, 3, 4, 5};
+		return  intArray;
+	}
+	
+	public static String[] getArrayStr() {
+		return new String[] {"a", "b", "c", "d", "e"};
+	}
+	
 	public static List<Developer> getDevelopers() {
 		List<Developer> result = new ArrayList<Developer>();
 
