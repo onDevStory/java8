@@ -21,3 +21,5 @@ https://www.mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/
 https://www.mkyong.com/java8/java-stream-has-already-been-operated-upon-or-closed/
 
 https://www.mkyong.com/java8/java-how-to-convert-array-to-stream/
+
+https://www.mkyong.com/java8/java-8-flatmap-example/
