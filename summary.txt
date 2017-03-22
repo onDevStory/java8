@@ -17,3 +17,5 @@ https://www.mkyong.com/java8/java-8-filter-a-map-examples/
 https://www.mkyong.com/java8/java-8-convert-list-to-map/
 
 https://www.mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/
+
+https://www.mkyong.com/java8/java-stream-has-already-been-operated-upon-or-closed/
