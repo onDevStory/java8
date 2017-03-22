@@ -23,3 +23,5 @@ https://www.mkyong.com/java8/java-stream-has-already-been-operated-upon-or-close
 https://www.mkyong.com/java8/java-how-to-convert-array-to-stream/
 
 https://www.mkyong.com/java8/java-8-flatmap-example/
+
+https://www.mkyong.com/java8/java-8-convert-map-to-list/
