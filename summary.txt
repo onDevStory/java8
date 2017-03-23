@@ -51,3 +51,5 @@ https://www.mkyong.com/java8/java-8-hijrahdate-how-to-calculate-the-ramadan-date
 https://www.mkyong.com/java8/java-8-how-to-format-localdatetime/
 
 https://www.mkyong.com/java8/java-8-period-and-duration-examples/
+
+https://www.mkyong.com/java8/java-8-temporaladjusters-examples/
