@@ -70,6 +70,23 @@ public class Mock {
 
 		return items;
 	}
+	
+	public static Map<String, Integer> getUnsortMap() {
+		Map<String, Integer> items = new HashMap<>();
+		items.put("z", 10);
+        items.put("b", 5);
+        items.put("a", 6);
+        items.put("c", 20);
+        items.put("d", 1);
+        items.put("e", 7);
+        items.put("y", 8);
+        items.put("n", 99);
+        items.put("j", 50);
+        items.put("m", 2);
+        items.put("f", 9);
+
+		return items;
+	}
 
 	public static List<String> getListIdentity() {
 		return Arrays.asList("A", "B", "C", "D", "E");
