@@ -6,12 +6,13 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import example.Mock;
 import example.util.PrintUtil;
 
 public class FilterNullValue {
 
 	public static void main(String[] args) {
-		Supplier<Stream<String>> streamSupplier = () -> Stream.of("java", "python", "node", null, "ruby", null, "php");
+		Supplier<Stream<String>> streamSupplier = () -> Mock.getStreamString();
 		
 		// non filtering null value
 		List<String> nonFiltering = streamSupplier.get()

@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Stream;
 
 import example.vo.Developer;
 import example.vo.Item;
@@ -95,6 +96,14 @@ public class Mock {
         list.add(obj2);
         
         return list;
+	}
+	
+	public static Stream<String> getStreamString() {
+		return Stream.of("java", "python", "node", null, "ruby", null, "php");
+	}
+	
+	public static Stream<Integer> getStreamInteger() {
+		return Stream.of(1, 2, 3, 4, 5);
 	}
 	
 }
