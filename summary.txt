@@ -31,3 +31,21 @@ https://www.mkyong.com/java8/java-8-filter-a-null-value-from-a-stream/
 https://www.mkyong.com/java8/java-8-convert-a-stream-to-list/
 
 https://www.mkyong.com/java8/java-8-how-to-sort-a-map/
+
+https://www.mkyong.com/java8/java-8-how-to-convert-string-to-localdate/
+
+https://www.mkyong.com/java8/java-display-all-zoneid-and-its-utc-offset/
+
+https://www.mkyong.com/java8/java-convert-instant-to-localdatetime/
+
+https://www.mkyong.com/java8/java-8-convert-instant-to-zoneddatetime/
+
+https://www.mkyong.com/java8/java-8-convert-date-to-localdate-and-localdatetime/
+
+https://www.mkyong.com/java8/java-8-zoneddatetime-examples/
+
+https://www.mkyong.com/java8/java-8-minguodate-examples/
+
+https://www.mkyong.com/java8/java-8-hijrahdate-how-to-calculate-the-ramadan-date/
+
+
