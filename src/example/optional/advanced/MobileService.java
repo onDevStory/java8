@@ -1,18 +1,13 @@
 package example.optional.advanced;
 
+import java.util.Optional;
+
 public class MobileService {
 
-	public int getMobileScreenWidth(Mobile mobile) {
-		if (mobile != null) {
-			DisplayFeatures displayFeatures = mobile.getDisplayFeature();
-			if (displayFeatures != null) {
-				ScreenResolution screenResolution = displayFeatures.getResolution();
-				if (screenResolution != null) {
-					return screenResolution.getWidth();
-				}
-			}
-		}
-		return 0;
+	public int getMobileScreenWidth(Optional<Mobile> mobile) {
+		return mobile
+				.flatMap(Mobile::getDisplayFeature)
+				.flatMap(DisplayFeatures::getResolution)
+				.map(ScreenResolution::getWidth).orElse(0);
 	}
-
 }

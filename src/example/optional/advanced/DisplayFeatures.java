@@ -1,5 +1,7 @@
 package example.optional.advanced;
 
+import java.util.Optional;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -7,5 +9,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class DisplayFeatures {
 	private String size;
-	private ScreenResolution resolution;
+	private Optional<ScreenResolution> resolution;
 }
