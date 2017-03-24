@@ -53,3 +53,11 @@ https://www.mkyong.com/java8/java-8-how-to-format-localdatetime/
 https://www.mkyong.com/java8/java-8-period-and-duration-examples/
 
 https://www.mkyong.com/java8/java-8-temporaladjusters-examples/
+
+https://www.mkyong.com/java8/java-8-math-exact-examples/
+
+https://www.mkyong.com/java8/java-8-optional-in-depth/
+	http://cocomo.tistory.com/486
+	http://multifrontgarden.tistory.com/131
+	http://www.daleseo.com/java/java8-optional-after/
+	

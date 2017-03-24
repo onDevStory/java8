@@ -9,7 +9,7 @@ public class PrintUtil {
 		System.out.println();
 	}
 
-	public static void print(String comment, String output) {
+	public static void print(String comment, Object output) {
 		System.out.println(comment);
 		System.out.println(output);
 		System.out.println();
